@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <table title="" types="hoverable | small | responsive | basic | stripedRows | bordered | contextual | paginated | data_table | editable_table" >
-    <column textAlign="text-align-center | text-align-left | text-align-right" fontStyle="bold | italic">
-
-    </column>
+    
+    <columns-definitions>
+        <column textAlign="text-align-center | text-align-left | text-align-right" fontStyle="bold | italic" title="abc"/>
+        <column textAlign="text-align-center | text-align-left | text-align-right" fontStyle="bold | italic" title="abc"/>
+        <column textAlign="text-align-center | text-align-left | text-align-right" fontStyle="bold | italic" title="abc"/>
+    </coulumns-definitions>
+    
+    
 </table>
