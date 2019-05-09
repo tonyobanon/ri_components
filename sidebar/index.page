@@ -47,12 +47,12 @@
                 </item>
             <group>
 
-            <group name="Applications">
-                <item title="Apps">
-                        <item title="App 1"></item>
-                        <item title="App 2"></item>
-                        <item title="App 3"></item>
-                </item>
+            <group name="Setting">
+                <item title="General Settings"></item>
+                <item title="Tools"></item>
+                <item title="Admin Settings"></item>
+                <item title="Appearance"></item>
+                
             <group>
  
         </groups>
