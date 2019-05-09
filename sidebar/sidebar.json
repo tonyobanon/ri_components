@@ -14,10 +14,12 @@
                 "Groups": {
                     "Group 1": {
                         "GroupName": "Main",
-                        "item": "Dashboard"
+                        "item": "Dashboard",
+                        "attributes": "icon"
                     },
                     "Group 2": {
                         "GroupName": "Applications",
+                        "attributes": "icon",
                         "Item": "Apps",
                         "SubItems": {
                             "SubItem 1": "App1",
@@ -27,6 +29,7 @@
                     },
                     "Group 3": {
                         "GroupName": "Tools",
+                        "attributes": "icon",
                         "Item": "Settings",
                         "SubItems": {
                             "SubItem 1": "General",
@@ -37,6 +40,7 @@
                     },
                     "Group 4": {
                         "GroupName": "Progress Bars",
+                        "attributes": "icon",
                         "Item": "Bar",
                         "SubItems": {
                             "SubItem 1": "Store Popularity",
