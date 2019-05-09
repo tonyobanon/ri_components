@@ -1,55 +1,62 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Sidebar>
-    <Left Sidebar attributes="collapsible", "light", "dark", "accordion", "classic" "hoverable">
-        <Title>Sidebar</Title>
-        <Position>Left</Position>
-    <Top>
-        <Profile>
-            <Logo></Logo>
-            <Name></Name>
-        </Profile>
-    </Top>
-    <Body>
-        <Groups>
-            
-            <Group>
-                <GroupName>Main</GroupName>
-                <Item>Dashboard</Item>
-            <Group>
-            
-            <Group>
-                <GroupName>Applications</GroupName>
-                <Item>Apps</Item>
-                    <SubItems>
-                        <SubItem>App 1</SubItem>
-                        <SubItem>App 2</SubItem>
-                        <SubItem>App 3</SubItem>
-                    </SubItems>
-            <Group>
-            
-            <Group>
-                <GroupName>Tools</GroupName>
-                <Item>Settings</Item>
-                    <SubItems>
-                        <SubItem>General</SubItem>
-                        <SubItem>Tools</SubItem>
-                        <SubItem>App Settings</SubItem>
-                        <SubItem>Appearance</SubItem>
-                    </SubItems>
-            <Group>
-            
-            <Group>
-                <GroupName>Progress Bars</GroupName>
-                <Item>Bar</Item>
-                    <SubItems>
-                        <SubItem>Store Popularity</SubItem>
-                        <SubItem>Sales Progress Bar</SubItem>
-                        <SubItem>Bandwidth</SubItem>
-                    </SubItems>
-            <Group>
-        </Groups>
+<sidebar title="" position="left" collapsible="true" colorScheme="light | dark | inherit", displayMode="accordion | classic", hoverEffect="true">
+    
+    <top>
         
-
-    </Body>
-    </Left Sidebar>
-</Sidebar>
+        <profile>
+            <name>JOSEPH LARSON</name>
+            <image url="" style="style-a | style-b | style-c"/>
+            
+            <group name="Main">
+                <item title="Dashboard">
+                    <icon name="" icon=""></icon>
+                </item>
+                <item title="Dashboard">
+                    <icon name="" icon=""></icon>
+                </item>
+                <item title="Dashboard">
+                    <icon name="" icon=""></icon>
+                </item>
+            <group>
+            
+        </profile>
+        
+    </top>
+    
+    <body>
+        
+        <groups>
+            
+            <group name="Main">
+                <item title="Dashboard" icon-name="" icon-url="">
+                    
+                </item>
+                <item title="Dashboard">
+                    
+                </item>
+                <item title="Dashboard">
+                    
+                </item>
+            <group>
+            
+            <group name="Applications">
+                <item title="Apps">
+                        <item title="App 1"></item>
+                        <item title="App 2"></item>
+                        <item title="App 3"></item>
+                </item>
+            <group>
+ 
+        </groups>
+        
+    </body>
+                
+                
+    <bottom>
+        <progressbar name="" value="" displayBadge="true"/>
+        <progressbar name="" value="" displayBadge="true"/>
+        <progressbar name="" value="" displayBadge="true"/>
+    </bottom>
+                
+                
+</sidebar>
