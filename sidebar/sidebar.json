@@ -1,0 +1,51 @@
+{
+    "ComponentData": {
+        "TagName": "Sidebar",
+        "Position": "Left",
+        "attributes": {"collapsible": true, "light": true, "dark": false, "accordion": true, "classic": false, "hoverable": false},
+        "children": {
+            "Top": {
+                "Profile": {
+                    "Logo": true,
+                    "Name": true
+                }    
+            },
+            "Body": {
+                "Groups": {
+                    "Group 1": {
+                        "GroupName": "Main",
+                        "item": "Dashboard"
+                    },
+                    "Group 2": {
+                        "GroupName": "Applications",
+                        "Item": "Apps",
+                        "SubItems": {
+                            "SubItem 1": "App1",
+                            "SubItem 2": "App2",
+                            "SubItem 3": "App3"
+                        }
+                    },
+                    "Group 3": {
+                        "GroupName": "Tools",
+                        "Item": "Settings",
+                        "SubItems": {
+                            "SubItem 1": "General",
+                            "SubItem 2": "Tools",
+                            "SubItem 3": "Settings",
+                            "SubItem 4": "Appearance",
+                        }
+                    },
+                    "Group 4": {
+                        "GroupName": "Progress Bars",
+                        "Item": "Bar",
+                        "SubItems": {
+                            "SubItem 1": "Store Popularity",
+                            "SubItem 2": "Sales Progress Bar",
+                            "SubItem 3": "Bandwidth"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

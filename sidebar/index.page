@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Sidebar>
+    <Left Sidebar attributes="collapsible", "light", "dark", "accordion", "classic" "hoverable">
+        <Title>Sidebar</Title>
+        <Position>Left</Position>
+    <Top>
+        <Profile>
+            <Logo></Logo>
+            <Name></Name>
+        </Profile>
+    </Top>
+    <Body>
+        <Groups>
+            
+            <Group>
+                <GroupName>Main</GroupName>
+                <Item>Dashboard</Item>
+            <Group>
+            
+            <Group>
+                <GroupName>Applications</GroupName>
+                <Item>Apps</Item>
+                    <SubItems>
+                        <SubItem>App 1</SubItem>
+                        <SubItem>App 2</SubItem>
+                        <SubItem>App 3</SubItem>
+                    </SubItems>
+            <Group>
+            
+            <Group>
+                <GroupName>Tools</GroupName>
+                <Item>Settings</Item>
+                    <SubItems>
+                        <SubItem>General</SubItem>
+                        <SubItem>Tools</SubItem>
+                        <SubItem>App Settings</SubItem>
+                        <SubItem>Appearance</SubItem>
+                    </SubItems>
+            <Group>
+            
+            <Group>
+                <GroupName>Progress Bars</GroupName>
+                <Item>Bar</Item>
+                    <SubItems>
+                        <SubItem>Store Popularity</SubItem>
+                        <SubItem>Sales Progress Bar</SubItem>
+                        <SubItem>Bandwidth</SubItem>
+                    </SubItems>
+            <Group>
+        </Groups>
+        
+
+    </Body>
+    </Left Sidebar>
+</Sidebar>
